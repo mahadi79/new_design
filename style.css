@@ -3,12 +3,17 @@
     padding: 0px;
 }
 
+
+.container{
+    width: 100%;
+    background: gold;
+}
 .header{
-    width: 1200px;
+    width: 1300px;
     height: auto;
     /* background: gold; */
     margin: auto;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 
@@ -99,30 +104,108 @@ li a:hover {
     text-decoration: none;
 }
 
-
+.footer-p{
+    width: 100%;
+    background: #022c45;
+    /* height: auto; */
+}
 .footer_section{
-    width: 1200px;
-    height: 500px;
+    width: 1300px;
+    height:auto;
     background: #022c45;
     margin: auto;
     display: block;
+    overflow: hidden;
 }
 
 
 .footer{
-    width: 48%;
+    width: 46.5%;
     height: auto;
-    background: gold;
-    margin: 12px;
+    background: #011e2f;
+    margin: 10px 13px 6px 10px;
     float: left;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+/* .footer-0{
+    width: 46.5%;
+    height: auto;
+    background: #011e2f;
+    margin: 10px 13px 6px 10px;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.footer h3  {
+    font-size: 25px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    padding: 30px;
+    font-weight: 800;
+    color: aliceblue;
+
+}
+
 .main_section{
-    width: 100%;
+    width: 1000px;
     height: 500px;
     margin-bottom: 50px;
     background-color: bisque;
+    margin: auto;
+}
+
+.left_part a.btn.dark {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    background: rgb(245, 69, 69);
+    border-radius: 15px;
+    margin: 30px;
+    transition: all 1s;
+}
+
+
+.right_part a.btn.dark {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    /* background: rgb(245, 69, 69); */
+    border-radius: 15px;
+    margin: 30px;
+    border: 1px solid white;
+    transition: all 1s;
+}
+
+.right_part a.btn.dark:hover{
+    color: black;
+    background: white;
+
+}
+
+.left_part a.btn.dark:hover{
+    background: rgb(212, 3, 3);
+
+}
+
+.footer-section-01{
+    width: 15%;
+    height: auto;
+    background: gold;
+    display: flex; 
+    float: left;
+    margin-left: 12px;
 }
