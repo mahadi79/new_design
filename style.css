@@ -8,6 +8,8 @@
     width: 100%;
     background: gold;
 }
+
+
 .header{
     width: 1300px;
     height: auto;
@@ -49,10 +51,11 @@ li a {
     margin: 2px;
     text-decoration: none;
     transition: all 1.5s;
+    border-color: magenta;
 }
 
 li a:hover {
-    text-decoration: underline;
+    border-bottom: 5px solid magenta;
     color: rgb(86, 88, 88);
 }
 
@@ -97,11 +100,13 @@ li a:hover {
 .action_btn:hover{
     background:red;
     text-decoration: none;
+    border-bottom: -5px solid magenta;
 }
 
 
 .action_btn1:hover{
     text-decoration: none;
+    border-bottom: -5px solid magenta;
 }
 
 .footer-p{
@@ -204,8 +209,32 @@ li a:hover {
 .footer-section-01{
     width: 15%;
     height: auto;
-    background: gold;
-    display: flex; 
+    /* background: gold; */
+    display: flex;
     float: left;
-    margin-left: 12px;
+    /* margin-left: 1px; */
+    margin-top: 20px;
+    padding: 10px;
+    border-bottom: 0.5px solid white;
+    margin-bottom: 50px;
+    color: wheat;
+    cursor: pointer;
+}
+
+p {
+    padding: 24px;
+    line-height: 30px;
+}
+
+.footer_bottom{
+    width: 1300px;
+    margin: auto;
+    background: magenta;
+    height: 50px;
+}
+
+.left_s{
+    width: 50%;
+    height: 50px;
+    float: left;
 }
